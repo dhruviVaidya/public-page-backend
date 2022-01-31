@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-prettier",
+    "tslint:latest"    
+  ],
+  "jsRules": {},
+  "rules": {
+    "member-ordering": [true, {"order": ["instance-field", "private-static-field"]}],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "no-console": [true, "error"],
+    "no-var-requires": false,
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
+}
